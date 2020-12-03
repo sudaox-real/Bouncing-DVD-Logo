@@ -1,0 +1,34 @@
+<html>
+<head>
+  <title>DVD Video</title>
+              <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2M91XREHWZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2M91XREHWZ');
+</script>
+    <meta name="description" content="A bouncing DVD Logo! Holy cow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      // document.write("<marquee direction='down' width='" + window.screen.width + "' height='" + window.screen.height + "' behavior='alternate'><marquee behavior='alternate'><img src='/static/img/en-GB/censored.gif'></marquee></marquee>")
+
+      // This used to be the way we did it, but not anymore.
+    </script>
+    <script>
+      function enterSpeed() {
+        var newspeed = prompt("Enter new speed, Lower is slower and Higher is faster, the default speed is 10", "10");
+      dvd.setAttribute("scrollamount", newspeed);
+        }
+    </script>
+<style>
+body {
+   background-color: black;
+}
+</style>
+  <body style="padding: 0; margin: 0; border: 0;">
+    <marquee id="dvd" direction="down" scrollamount="10" style="width: 100%; height: 100%;" behavior="alternate"><marquee behavior="alternate"><img onclick="enterSpeed();" src="/static/img/en-GB/dvd_cropped.png" width="150" height="100"  title="Click me to the change the speed" alt="If you are seeing this, the image didn't load correctly."></marquee></marquee>
+  </head>
+  </html>
